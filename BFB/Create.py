@@ -1,5 +1,5 @@
 from peewee import *
-from Models import User
+from models.Models import User
 from helpers.validations import Validations
 
 db = SqliteDatabase("db.sqlite")

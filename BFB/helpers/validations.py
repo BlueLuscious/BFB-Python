@@ -1,4 +1,4 @@
-from Models import User
+from models.Models import User
 
 user = User()
 
