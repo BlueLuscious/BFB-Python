@@ -16,7 +16,7 @@ def delete_user_by_id(user_id):
     except User.DoesNotExist:
         print(f"User with ID {user_id} does not exist.")
 
-""" user_id = input("Enter the ID of the user you want to delete: ")
-delete_user_by_id(user_id) """
+user_id = input("Enter the ID of the user you want to delete: ")
+delete_user_by_id(user_id)
 
-""" drop_table_user() """
+#drop_table_user()
