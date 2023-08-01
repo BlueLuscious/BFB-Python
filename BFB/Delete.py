@@ -4,7 +4,6 @@ from models.Models import User
 db = SqliteDatabase("db.sqlite")
 user = User()
 
-
 def drop_table_user():
     db.drop_tables([User])
     

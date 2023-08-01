@@ -1,6 +1,5 @@
 from peewee import *
 from models.Models import User
-from Create import insert_user
 
 db = SqliteDatabase("db.sqlite")
 user = User()
