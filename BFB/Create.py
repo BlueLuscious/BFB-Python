@@ -9,7 +9,7 @@ validator = Validations()
 def create_table_user():
     db.create_tables([User])
     
-def insert_user():
+def insert_user(user):
     user.email = input("Enter your email: ")
     user.firstname = input("Enter your first name: ")
     user.lastname = input("Enter your last name: ")
@@ -26,5 +26,5 @@ def insert_user():
         return False
     
 
-create_table_user()
-insert_user()
+#create_table_user()
+insert_user(user)
