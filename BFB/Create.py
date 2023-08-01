@@ -25,6 +25,5 @@ def insert_user(user):
     else:
         return False
     
-
 #create_table_user()
-insert_user(user)
+#insert_user(user)

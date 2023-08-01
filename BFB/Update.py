@@ -9,5 +9,5 @@ def update_user(user_id):
     user = User.get(User.id == user_id)
     insert_user(user)
     
-""" user_id = input("Enter the ID of the user you want to update: ")
-update_user(user_id) """
+#user_id = input("Enter the ID of the user you want to update: ")
+#update_user(user_id)
