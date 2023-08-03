@@ -1,7 +1,46 @@
 # cd (folder) or (.. (back))
 # pip freeze or pip list (show all package)
+
 # python -m venv .venv
 # Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 # .venv\Scripts\activate.bat y venv\Scripts\deactivate.bat (cmd)
 # .venv\Scripts\activate y deactivate (python)
 # .venv\Scripts\activate.ps1 y deactivate (powershell)
+
+# django-admin startproject (name)
+# django-admin startapp BFB (name)
+
+# python manage.py runserver
+# python manage.py migrate
+# python manage.py makemigration
+# python manage.py createsuperuser
+
+# forms
+"Field",
+"CharField",
+"IntegerField",
+"DateField",
+"TimeField",
+"DateTimeField",
+"DurationField",
+"RegexField",
+"EmailField",
+"FileField",
+"ImageField",
+"URLField",
+"BooleanField",
+"NullBooleanField",
+"ChoiceField",
+"MultipleChoiceField",
+"ComboField",
+"MultiValueField",
+"FloatField",
+"DecimalField",
+"SplitDateTimeField",
+"GenericIPAddressField",
+"FilePathField",
+"JSONField",
+"SlugField",
+"TypedChoiceField",
+"TypedMultipleChoiceField",
+"UUIDField",
