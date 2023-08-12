@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function () {
     const successMessage = sessionStorage.getItem('successMessage')
 
     signUpButton.addEventListener('click', function () {
-        window.location.href = 'register.html'
+        window.location.href = '/register/'
     }) // sign up bottom redirects to register.html
 
     inputs.forEach(function (input, index) {
