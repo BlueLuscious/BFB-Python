@@ -1,0 +1,140 @@
+/* ELEMENT */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+td {
+    margin: 0px;
+    padding: 5px;
+}
+
+input {
+    margin: 0px;
+    margin-top: -5px;
+    padding: 15px;
+    width: 380px;
+    border: 1.5px solid transparent;
+    transition: border-color 0.3s;
+    transition: outline-color 0,3s;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+} /* data inputs */
+
+input:hover {
+    border-color: rgb(210, 210, 210);
+} /* data inputs blinking border*/
+
+button .bi { 
+    font-size: 22px;
+} /* eye icon */
+
+/* CLASS */
+.main-title h1 {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+} /* display main title */
+
+.greet-and-meet h2 {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+} /* display greeting */
+
+.form-login {
+    position: absolute;
+    top: 350px;
+    left: 200px;
+} /* display form */
+
+.password-login {
+    padding-top: 20px;
+} 
+
+.password-login button {
+    position: absolute;
+    top: 184px;
+    left: 380px;
+    background: none;
+    border: none;
+    cursor: pointer;
+} /* show/hide password button */
+
+.password-login .show-password-pop-up-text {
+    margin: 0px;
+    padding: 10px;
+    width: 120px;
+    position: absolute;
+    top: 179px;
+    left: 440px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+} /* show password popup */
+
+.warnings {
+    margin-top: 15px;
+    height: 15px;
+    color: rgb(195, 20, 20);
+}
+
+.button-table-login {
+    position: absolute;
+    bottom: -75%;
+}
+
+.background-image-login img {
+    width: 1100px;
+    height: 1100px;
+    position: fixed;
+    left: 830px;
+    top: -100px;
+} /* display main image */
+
+/* ID */
+#loginButton,
+#signUpButton {
+    margin: 0;
+    padding: 15px;
+    width: 410px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+} /* buttons */
+
+#loginButton:hover,
+#signUpButton:hover {
+    animation: blink-hover 1s infinite;
+} 
+@keyframes blink-hover {
+    0% {opacity: 0.3;}
+    50% {opacity: 0.3;}
+    100% {opacity: 0.3;}
+} /* blinking buttons */
+
+#loginButton {
+    color: black;
+    background-color: rgb(29, 186, 186);
+}
+
+#signUpButton {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
+
+#successfulRegister {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 15px;
+    font-size: 20px;
+    color: rgb(18, 173, 18);
+}
