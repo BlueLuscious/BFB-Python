@@ -1,0 +1,50 @@
+# cd (folder) or (.. (back))
+# pip freeze or pip list (show all package)
+
+# python -m venv .venv
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+# .venv\Scripts\activate.bat y venv\Scripts\deactivate.bat (cmd)
+# .venv\Scripts\activate y deactivate (python)
+# .venv\Scripts\activate.ps1 y deactivate (powershell)
+
+# django-admin startproject (name)
+# django-admin startapp BFB (name)
+
+# python manage.py runserver
+# python manage.py migrate
+# python manage.py makemigration (name)
+# python manage.py createsuperuser
+
+# forms
+"AutoField",
+"BLANK_CHOICE_DASH",
+"BigAutoField",
+"BigIntegerField",
+"BinaryField",
+"BooleanField",
+"CharField",
+"CommaSeparatedIntegerField",
+"DateField",
+"DateTimeField",
+"DecimalField",
+"DurationField",
+"EmailField",
+"Empty",
+"Field",
+"FilePathField",
+"FloatField",
+"GenericIPAddressField",
+"IPAddressField",
+"IntegerField",
+"NOT_PROVIDED",
+"NullBooleanField",
+"PositiveBigIntegerField",
+"PositiveIntegerField",
+"PositiveSmallIntegerField",
+"SlugField",
+"SmallAutoField",
+"SmallIntegerField",
+"TextField",
+"TimeField",
+"URLField",
+"UUIDField",
